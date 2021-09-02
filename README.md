@@ -1,2 +1,2 @@
 # exercicios-PYTHON3-MUNDO1
-Exercicios Mundo1 de Python 3
+Exercicios Mundo 1 de Python 3
