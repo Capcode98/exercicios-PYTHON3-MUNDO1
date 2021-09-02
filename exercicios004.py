@@ -1,0 +1,7 @@
+k = input('digite algo:')
+print(k.isalnum(),k.isnumeric(),k.isalpha(),k.isascii(),k.isdecimal(),k.isdigit(),k.isidentifier(),k.islower(),k.isprintable(),k.isspace(),k.istitle(),k.isupper(),type(k))
+n = int(input('digete aqui:'))
+m = float(input("Digite aqui:"))
+o = bool(input('digite algo'))
+p = str(input('Digite aqui'))
+print(type(n),type(m),type(o),type(p))

@@ -1,0 +1,10 @@
+n = input('digite seu nome:')
+lt = len(n) - n.count(' ')
+d = n.split()
+td = len(d[0])
+u = n.upper()
+l = n.lower()
+p = n.strip()
+q = p.split()
+s = q[0] + q[1]
+print('nome em maiusculo {} nome em minusculo {} nome sem os espaços {} a quantidade de letras que tem o seu primeiro nome {} e a quantidade de letras ao todo {}'.format(u, l, s, td, lt))

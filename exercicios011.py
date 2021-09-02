@@ -1,0 +1,5 @@
+x = float(input('Qual o comprimento da parede (em metros)?'))
+y = float(input('Qual a altura da parede (em metros)?'))
+A = (x*y)
+r = float(input('Qual a area que um litro de tinta pinta (em metros quadrados)?'))
+print('o comprimento da parede é {}, a altura é {}, a área da parede é {} e o total em litros de tinta necessario(s) para dar uma mão de tinta na parede é {}'.format( x, y, A, A*(1/r) ))
